@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+    
+    <div class="c1">
+        <div class="intro">
+            
+           <h1>Know todays acurate weather report in your area</h1>
+           <form action="/weather" id="weather">
+           <input type="text" name="data" placeholder="Search the City....">
+           <button>GO</button>
+           
+           </form>
+           
+        </div>
+        <div class="image">
+          <img src="./media/m1.svg" alt="clipart">
+        </div>
+    </div>
+   
+    <div class="rep">
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
